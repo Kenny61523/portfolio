@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ramen Restaurant Colored Draft
+* source:	https://sketchfab.com/3d-models/ramen-restaurant-colored-draft-1fc80f44dc07421fada59937962607de
+* author:	b0operd0oper (https://sketchfab.com/b0operd0oper)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ramen Restaurant Colored Draft" (https://sketchfab.com/3d-models/ramen-restaurant-colored-draft-1fc80f44dc07421fada59937962607de) by b0operd0oper (https://sketchfab.com/b0operd0oper) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
