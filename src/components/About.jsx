@@ -62,7 +62,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Hi there, I’m Kenny! Born to Chinese parents, I was born and praised in Japan until high school. 
+          Hi there, I’m Kenny! Born to Chinese parents, I was born and raised in Japan until high school. 
           I then moved to Canada to pursue my undergraduate studies at the University of Waterloo. 
           I appreciate and embrace the unique interplay between Chinese, Japanese, and Canadian cultures. 
           From omotenashi to Miànzi to cheering for the Toronto Raptors, I aim to hone my technical skills to help 
