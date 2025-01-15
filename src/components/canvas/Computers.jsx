@@ -60,8 +60,8 @@ const Computers = ({ isMobile }) => {
         // rotation={[-0.01, -0.2, -0.1]}
 
         scale={isMobile ? 0.12 : 0.18}
-        position={isMobile ? [-2.8, -3, -2.2] : [0, -3, 0]}
-        rotation={[0, 0, 0]} 
+        position={isMobile ? [0, -3, 0] : [0, -3, 0]}
+        rotation={[0, -3, 0]} 
       />
       
     </mesh>
