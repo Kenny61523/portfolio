@@ -35,7 +35,7 @@ const Computers = ({ isMobile }) => {
         // position={isMobile ? [-1.5, -2, 0.6] : [0, -3, 0]}
         // rotation={isMobile ? [0.3, 1, -0.3] : [0, 1.2, -0.05]}
         scale={isMobile ? 0.06 : 0.09}
-        position={isMobile ? [-3, -2, 0.6] : [0, -3, 0]}
+        position={isMobile ? [0, 0, 0] : [0, -3, 0]}
         rotation={isMobile ? [0.3, 1.0, -0.2] : [0, 1.2, -0.05]}
       />
        <hemisphereLight intensity={0.9} groundColor='black' /> 
@@ -60,8 +60,8 @@ const Computers = ({ isMobile }) => {
         // rotation={[-0.01, -0.2, -0.1]}
 
         scale={isMobile ? 0.12 : 0.18}
-        position={isMobile ? [-2.8, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]} 
+        position={isMobile ? [-2.8, -3, -2.2] : [0, -3, 0]}
+        rotation={[0, 0, 0]} 
       />
       
     </mesh>
@@ -95,6 +95,7 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
+    <div className="absolute top-0 left-0 w-full h-full z-0">
     <Canvas
       frameloop='demand'
       shadows
@@ -105,6 +106,7 @@ const ComputersCanvas = () => {
       {/* // erorr occuring here */}
       <Suspense fallback={<CanvasLoader />}>  
         <OrbitControls
+        autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
@@ -114,6 +116,7 @@ const ComputersCanvas = () => {
 
       <Preload all />
     </Canvas>
+    </div>
   );
 };
 

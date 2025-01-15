@@ -42,4 +42,3 @@ const EarthCanvas = () => {
 };
 
 export default EarthCanvas;
-
