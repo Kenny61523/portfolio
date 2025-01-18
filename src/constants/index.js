@@ -239,7 +239,7 @@ const projects = [
       tags: [
       {
         name: "c++",
-        color: "blue-text-gradient",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-purple-300"
       },
       {
         name: "design pattern",
