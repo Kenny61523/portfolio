@@ -218,14 +218,14 @@ const projects = [
       tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300",
       },
       {
-        name: "python",
+        name: "flask",
         color: "green-text-gradient",
       },
       {
-        name: "pytorch",
+        name: "Tensorflow",
         color: "pink-text-gradient",
       },
     ],
@@ -240,6 +240,10 @@ const projects = [
       {
         name: "c++",
         color: "blue-text-gradient",
+      },
+      {
+        name: "design pattern",
+        color: "orange-text-gradient",
       },
     ],
     image: biquadris,
