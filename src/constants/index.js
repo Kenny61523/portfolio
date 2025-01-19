@@ -45,24 +45,24 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Ruby on Rails Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Data Scientist",
-    icon: creator,
-  },
-];
+// const services = [
+//   {
+//     title: "Ruby on Rails Developer",
+//     icon: web,
+//   },
+//   {
+//     title: "React Native Developer",
+//     icon: mobile,
+//   },
+//   {
+//     title: "Backend Developer",
+//     icon: backend,
+//   },
+//   {
+//     title: "Data Scientist",
+//     icon: creator,
+//   },
+// ];
 
 const technologies = [
   {
@@ -303,4 +303,4 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, experiences, testimonials, projects };
