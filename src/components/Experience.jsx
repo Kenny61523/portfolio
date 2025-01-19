@@ -30,6 +30,12 @@ const ExperienceCard = ({ experience }) => {
         <p className="text-secondary text-[16px] font-semibold" style={{ margin: 0 }}>
           {experience.company_name}
         </p>
+        
+         {/* test */}
+
+
+
+
       </div>
       <ul className="mt-5 list-disc ml-5 space-y-2">
         {experience.points.map((point, index) => (
@@ -38,6 +44,16 @@ const ExperienceCard = ({ experience }) => {
           </li>
         ))}
       </ul>
+      <div className='mt-4 flex flex-wrap gap-2'>
+        {experience.tags.map((tag) => (
+          <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+            #{tag.name}
+
+          </p>
+        ))}
+      </div>
+
+
     </VerticalTimelineElement>
   );
 };

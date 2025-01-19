@@ -127,10 +127,24 @@ const experiences = [
     icon: toward,
     iconBg: "#383E56",
     date: "June 2022 - Aug 2022",
+    tags: [
+      {
+        name: "MySQL",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-orange-300",
+      },
+      {
+        name: "JavaScript",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-200",
+      },
+      {
+        name: "Typescript",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-500",
+      },
+    ],
     points: [
-      "Studied HTML and MySQL and developed a functional web login page, allowing secure storage of user credentials.",
-      "Communicated and asked insightful questions to my mentor to expedite and enhance my learning process.",
-      "Passed the technical assessments for full-time employee qualification within the initial internship month.",
+      " Developed a web login page and built a MySQL database supporting the storage and retrieval of over 100 user authentication records. Implemented basic encryption techniques to ensure data integrity.",
+      " Conducted daily 30-minute technical discussions with a mentor to efficiently enhance skills in HTML and MySQL, accelerating the learning process. For example, implemented input validation and user session management within two weeks, improving login functionality.",
+      "Passed the technical assessment test for full-time employees (web development, database design, and problem-solving) within the initial internship month.",
     ],
   },
   {
@@ -139,11 +153,27 @@ const experiences = [
     icon: azoop,
     iconBg: "#383E56",
     date: "May 2024 - Aug 2024",
+    tags: [
+      {
+        name: "react",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-300",
+      },
+      {
+        name: "Ruby on Rails",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-300",
+      },
+      {
+        name: "GraphQL",
+        color: "text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-pink-300",
+      },
+    ],
     points: [
-      " Contributed to the development of key features on Japan’s leading trucking and commercial vehicle SaaS platform (manager.trck.jp), using Ruby on Rails for backend and React for frontend.",
-     "  Enhanced data retrieval by implementing GraphQL for efficient querying, and performed schema and model updates to optimize database interactions, improving overall application performance and scalability.",
-"      Developed comprehensive unit tests for APIs using RSpec, ensuring robust performance in mission-critical systems.",
-"      Facilitated cross-functional collaborations with the Product and Design teams to seamlessly integrate PDM-supplied assets into the platform’s UI using CSS and React, and contributed to technical documentation for new features.",
+      "Contributed to the development of key features on Japan’s leading trucking and commercial vehicle SaaS platform (manager.trck.jp), leveraging Ruby on Rails for backend development and React for building dynamic frontends.",
+      " Configured REST APIs within an MVC architecture to optimize information gathering in truck reports, supporting over 1,000 truck owners and 10+transportation companies worldwide.",
+      "Enhanced data retrieval by implementing GraphQL for efficient querying, and performed schema and model updates",
+      "to optimize database interactions, improving overall application performance and scalability.",
+      "Developed comprehensive unit tests for APIs using RSpec, ensuring robust performance in mission-critical systems.",
+      "Facilitated cross-functional collaborations with the Product and Design teams to seamlessly integrate PDM-supplied assets into the platform’s UI using CSS and React, and contributed to technical documentation for new features.",    
     ],
   },
 
